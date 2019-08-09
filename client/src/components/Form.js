@@ -2,8 +2,8 @@ import React from "react";
 import { Form, Field, withFormik } from "formik";
 
 class FormComponent extends React.Component {
-  constructor() {
-    super(props);
+  constructor(props) {
+    super();
     console.log(props);
     this.state = {
       username: "",

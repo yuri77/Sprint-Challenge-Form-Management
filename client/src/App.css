@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+  width: 80%;
+  max-width: 60%;
+  padding: 1%;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 2% 0;
+}
