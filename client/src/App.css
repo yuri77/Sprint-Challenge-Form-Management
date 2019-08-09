@@ -44,3 +44,12 @@ form {
 input {
   margin: 2% 0;
 }
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+}
