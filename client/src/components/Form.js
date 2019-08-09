@@ -6,7 +6,6 @@ import axios from "axios";
 class FormComponent extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props);
 
     this.state = {
       users: []
@@ -54,9 +53,9 @@ class FormComponent extends React.Component {
         </label>
         <div>
           {this.users ? (
-            this.users.map(user => <div key={user.id}>{user.name}</div>)
+            this.users.map(user => <div key={user.name}>{user.name}</div>)
           ) : (
-            <p>none</p>
+            <p>Displaying...</p>
           )}
         </div>
       </>
